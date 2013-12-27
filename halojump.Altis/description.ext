@@ -1,0 +1,31 @@
+respawn = 4;
+saving = 0;
+disabledAI = true;
+
+author="Pretzel and Pejter";
+OnLoadName = "HALO Jump";
+OnLoadMission = "Think about your approach...";
+loadScreen = "pic.paa";
+
+class Header{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 24;
+};
+
+class CfgDebriefing
+{  
+	class finish
+	{
+		title = "Mission Finished";
+		subtitle = "You've done a great job";
+		description = "I bet you gave your best.";
+	};
+};
+
+#include "taw_vd\dialog.hpp"
+
+class CfgFunctions
+{
+	#include "taw_vd\CfgFunctions.hpp"
+};

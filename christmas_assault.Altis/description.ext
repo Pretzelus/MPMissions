@@ -1,0 +1,31 @@
+respawn = 4;
+saving = 0;
+disabledAI = true;
+
+author="Pejter and Pretzel";
+OnLoadName = "Christmas Assault";
+OnLoadMission = "NATO forces are moving on AAF positions";
+loadScreen = "mission_thumbnail.paa";
+
+class Header{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 32;
+};
+
+class CfgDebriefing
+{  
+	class retreat
+	{
+		title = "Mission Finished";
+		subtitle = "Commander ordered a retreat";
+		description = "Your job is done here. I know you did all you could.";
+	};
+};
+
+#include "taw_vd\dialog.hpp"
+
+class CfgFunctions
+{
+	#include "taw_vd\CfgFunctions.hpp"
+};
