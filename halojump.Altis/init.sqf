@@ -7,17 +7,6 @@
 
 //Create tasks
 [] execVM "tasks.sqf";
-/*[] spawn {
-	_completed = false;
-	while {!_completed} do {
-		sleep 1;
-		_completed = true;
-		{
-			if (!(taskCompleted _x)) then { _completed = false; };
-		}forEach tasks;
-	};
-	["finish",true,7] call BIS_fnc_endMission;
-};*/
 
 // Init Farooq revive
 [] execVM "FAR_revive\FAR_revive_init.sqf";

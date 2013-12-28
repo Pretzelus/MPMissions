@@ -2471,10 +2471,10 @@ class Mission
 	};
 	class Sensors
 	{
-		items=6;
+		items=7;
 		class Item0
 		{
-			position[]={4169.3594,33.670883,13097.777};
+			position[]={3578.7476,9.6536207,13059.438};
 			a=0;
 			b=0;
 			activationBy="GUER";
@@ -2483,9 +2483,9 @@ class Mission
 			timeoutMid=10;
 			timeoutMax=10;
 			age="UNKNOWN";
-			expActiv="playSound ""Alarm""";
 			class Effects
 			{
+				sound="Alarm_BLUFOR";
 			};
 		};
 		class Item1
@@ -2498,6 +2498,7 @@ class Mission
 			activationType="NOT PRESENT";
 			interruptable=1;
 			age="UNKNOWN";
+			name="secure_castle_tr";
 			expCond="this && !(alive castle1) && !(alive castle2) && !(alive castle3)";
 			expActiv="_n = [""TaskSucceeded"",["""",""Secure Castle Kastro""]] spawn BIS_fnc_showNotification;secure_castle setTaskState ""Succeeded"";";
 			class Effects
@@ -2513,8 +2514,9 @@ class Mission
 			activationType="NOT PRESENT";
 			interruptable=1;
 			age="UNKNOWN";
+			name="secure_hospital_tr";
 			expCond="this && !(alive hospital1) && !(alive hospital2)";
-			expActiv="_n = [""TaskSucceeded"",["""",""Secure Castle Kastro""]] spawn BIS_fnc_showNotification;secure_castle setTaskState ""Succeeded"";";
+			expActiv="_n = [""TaskSucceeded"",["""",""Secure Castle Kastro""]] spawn BIS_fnc_showNotification;secure_hospital setTaskState ""Succeeded"";";
 			class Effects
 			{
 			};
@@ -2527,6 +2529,7 @@ class Mission
 			rectangular=1;
 			interruptable=1;
 			age="UNKNOWN";
+			name="destroy_trucks_tr";
 			expCond="!(alive truck1) && !(alive truck2) && !(alive truck3) && !(alive truck4) && !(alive truck5) && !(alive truck6)";
 			expActiv="_n = [""TaskSucceeded"",["""",""Destroy supply trucks""]] spawn BIS_fnc_showNotification;destroy_trucks setTaskState ""Succeeded"";";
 			class Effects
@@ -2541,6 +2544,7 @@ class Mission
 			rectangular=1;
 			interruptable=1;
 			age="UNKNOWN";
+			name="destroy_fuel_north_tr";
 			expCond="!alive ((getMarkerPos ""fuelstation1"") nearestObject 1049639)";
 			expActiv="_n = [""TaskSucceeded"",["""",""Destroy fuel station north""]] spawn BIS_fnc_showNotification;destroy_fuel_north setTaskState ""Succeeded"";";
 			class Effects
@@ -2555,8 +2559,22 @@ class Mission
 			rectangular=1;
 			interruptable=1;
 			age="UNKNOWN";
+			name="destroy_fuel_south_tr";
 			expCond="!alive ((getMarkerPos ""fuelstation2"") nearestObject 1227188)";
 			expActiv="_n = [""TaskSucceeded"",["""",""Destroy fuel station south""]] spawn BIS_fnc_showNotification;destroy_fuel_south setTaskState ""Succeeded"";";
+			class Effects
+			{
+			};
+		};
+		class Item6
+		{
+			position[]={4132.458,31.471453,13076.367};
+			a=0;
+			b=0;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="(triggerActivated destroy_trucks_tr) && (triggerActivated secure_castle_tr) && (triggerActivated secure_hospital_tr) && (triggerActivated destroy_fuel_south_tr) && (triggerActivated destroy_fuel_north_tr)";
+			expActiv="[""finish"",true,7] call BIS_fnc_endMission;";
 			class Effects
 			{
 			};
