@@ -1,0 +1,1913 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters2",
+		"utes",
+		"dac_source"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"dac_source",
+		"utes"
+	};
+	randomSeed=2763449;
+	class Intel
+	{
+		startWeather=0.39999998;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+	class Groups
+	{
+		items=5;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3569.9326,19,3635.4438};
+					azimut=-207.20477;
+					id=0;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					text="s1";
+				};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2996.7878,0.25489077,3297.6836};
+					id=1;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="DAC_Marker = 3";
+				};
+			};
+		};
+		class Item2
+		{
+			side="LOGIC";
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3001.1826,0.0071084052,3164.0679};
+					id=2;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="DAC_Com_Values = [1,1,3]; DAC_Com_Values = [0,0,0]";
+				};
+			};
+		};
+		class Item4
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2998.0671,0.18955061,3424.8755};
+					id=3;
+					side="LOGIC";
+					vehicle="DAC_Source_Intern";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=245;
+		class Item0
+		{
+			position[]={3540.2949,18.89999,3541.3315};
+			name="PtS";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item1
+		{
+			position[]={4265.6865,31.231943,3227.4063};
+			name="ptS_1";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item2
+		{
+			position[]={4253.644,31.076269,3208.0823};
+			name="ptS_2";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item3
+		{
+			position[]={4292.0786,28.297606,3204.1292};
+			name="ptS_3";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item4
+		{
+			position[]={4308.5981,27.04003,3185.6716};
+			name="ptS_4";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item5
+		{
+			position[]={4318.9009,26.900557,3176.6204};
+			name="ptS_5";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item6
+		{
+			position[]={4336.4858,27,3181.9446};
+			name="ptS_6";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item7
+		{
+			position[]={4356.3804,27,3164.375};
+			name="ptS_7";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item8
+		{
+			position[]={4368.6367,27.097071,3155.1465};
+			name="ptS_8";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item9
+		{
+			position[]={4339.731,25.089767,3152.9568};
+			name="ptS_9";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item10
+		{
+			position[]={4382.6689,25.961708,3146.095};
+			name="ptS_10";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item11
+		{
+			position[]={4401.4976,26.85025,3183.1873};
+			name="ptS_11";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item12
+		{
+			position[]={4380.0044,27,3181.5901};
+			name="ptS_12";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item13
+		{
+			position[]={4389.064,27,3204.4841};
+			name="ptS_13";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item14
+		{
+			position[]={4378.2285,27,3209.8083};
+			name="ptS_14";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item15
+		{
+			position[]={4416.7061,26.200499,3205.7039};
+			name="ptS_15";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item16
+		{
+			position[]={4389.9731,27,3244.6233};
+			name="ptS_16";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item17
+		{
+			position[]={4375.2065,27,3252.509};
+			name="ptS_17";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item18
+		{
+			position[]={4295.5327,28.413853,3235.1702};
+			name="ptS_18";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item19
+		{
+			position[]={4335.1436,27,3228.781};
+			name="ptS_19";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item20
+		{
+			position[]={4324.4858,27,3238.1873};
+			name="ptS_20";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item21
+		{
+			position[]={4295.1777,29.067976,3254.5151};
+			name="ptS_21";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item22
+		{
+			position[]={4288.6055,29.508137,3243.1567};
+			name="ptS_22";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item23
+		{
+			position[]={4315.96,29.185255,3286.8154};
+			name="ptS_23";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item24
+		{
+			position[]={4334.3359,27.464851,3254.5413};
+			name="ptS_24";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item25
+		{
+			position[]={4350.1328,27.798203,3268.8689};
+			name="ptS_25";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item26
+		{
+			position[]={4367.2207,26.325306,3144.2957};
+			name="ptS_26";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item27
+		{
+			position[]={4327.0269,26.911011,3168.8875};
+			name="ptS_27";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item28
+		{
+			position[]={4253.625,29.628422,3164.8772};
+			name="ptS_28";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item29
+		{
+			position[]={3524.4895,19,3521.2307};
+			name="ptT";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item30
+		{
+			position[]={3223.3708,27.192808,4321.0708};
+			name="ptV";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item31
+		{
+			position[]={3380.0413,19.31547,3677.1963};
+			name="ptA";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item32
+		{
+			position[]={3204.1558,40.977264,4058.5396};
+			name="ptA_1";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item33
+		{
+			position[]={2614.5032,38.040539,3840.9856};
+			name="ptA_2";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item34
+		{
+			position[]={3960.564,31,3298.6296};
+			name="ptA_3";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item35
+		{
+			position[]={4375.3179,33.494495,3652.2034};
+			name="ptA_4";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item36
+		{
+			position[]={3876.7017,28,3301.408};
+			name="PtS_29";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item37
+		{
+			position[]={3866.46,28,3333.344};
+			name="PtS_30";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item38
+		{
+			position[]={3846.4792,28.003456,3353.8665};
+			name="PtS_31";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item39
+		{
+			position[]={3813.7832,28,3347.4446};
+			name="PtS_32";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item40
+		{
+			position[]={3835.4409,28,3325.5264};
+			name="PtS_33";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item41
+		{
+			position[]={3901.5313,27.609081,3345.6299};
+			name="PtS_34";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item42
+		{
+			position[]={3891.4712,28,3326.085};
+			name="PtS_35";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item43
+		{
+			position[]={3712.699,18.966654,3526.6655};
+			name="PtS_36";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item44
+		{
+			position[]={3568.4497,19,3530.459};
+			name="PtS_37";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item45
+		{
+			position[]={3416.0537,19,3665.8591};
+			name="PtS_38";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item46
+		{
+			position[]={3664.2993,18.970387,3502.9612};
+			name="PtS_39";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item47
+		{
+			position[]={3735.9497,19.683159,3477.3596};
+			name="PtS_40";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item48
+		{
+			position[]={3767.9998,19,3533.3342};
+			name="PtS_41";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item49
+		{
+			position[]={3561.7876,18.72953,3700.1948};
+			name="PtS_42";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item50
+		{
+			position[]={3553.5112,18.89999,3671.0872};
+			name="PtS_43";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item51
+		{
+			position[]={3569.4016,18.841413,3666.4565};
+			name="PtS_44";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item52
+		{
+			position[]={3604.4934,18.844929,3659.1797};
+			name="PtS_45";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item53
+		{
+			position[]={3463.1338,19,3689.2791};
+			name="PtS_46";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item54
+		{
+			position[]={3573.374,20.169916,3762.3782};
+			name="PtS_47";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item55
+		{
+			position[]={3194.3232,39.218807,4004.9021};
+			name="PtS_48";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item56
+		{
+			position[]={3144.7373,36.944607,4022.2051};
+			name="PtS_49";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item57
+		{
+			position[]={3181.2771,37.621368,4062.0879};
+			name="PtS_50";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item58
+		{
+			position[]={3288.0745,13.901391,4409.8599};
+			name="PtS_51";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item59
+		{
+			position[]={3313.7117,14.562151,4404.0903};
+			name="PtS_52";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item60
+		{
+			position[]={3357.3643,16.831882,4380.5527};
+			name="PtS_53";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item61
+		{
+			position[]={3422.959,16.970407,4379.8604};
+			name="PtS_54";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item62
+		{
+			position[]={3407.022,16.89999,4379.6294};
+			name="PtS_55";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item63
+		{
+			position[]={3428.7329,16.89999,4362.3218};
+			name="PtS_56";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item64
+		{
+			position[]={3392.9336,16.891495,4353.7837};
+			name="PtS_57";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item65
+		{
+			position[]={3365.217,18.321625,4344.7837};
+			name="PtS_58";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item66
+		{
+			position[]={3323.6431,22.902319,4332.0913};
+			name="PtS_59";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item67
+		{
+			position[]={3294.0793,23.221619,4347.7837};
+			name="PtS_60";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item68
+		{
+			position[]={3272.5991,22.802263,4344.0918};
+			name="PtS_61";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item69
+		{
+			position[]={3245.5764,24.23287,4333.0146};
+			name="PtS_62";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item70
+		{
+			position[]={3406.3291,16.841259,4357.937};
+			name="PtS_63";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item71
+		{
+			position[]={3480.7012,17.883995,4369.4761};
+			name="PtS_64";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item72
+		{
+			position[]={3480.47,16.990963,4392.7832};
+			name="PtS_65";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item73
+		{
+			position[]={3546.989,30.324926,4285.9385};
+			name="PtS_66";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item74
+		{
+			position[]={3554.1492,31.9233,4268.1689};
+			name="PtS_67";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item75
+		{
+			position[]={3539.8286,36.549931,4225.0161};
+			name="PtS_68";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item76
+		{
+			position[]={3528.0503,39.03376,4201.2471};
+			name="PtS_69";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item77
+		{
+			position[]={3559.4614,37.186108,4216.2466};
+			name="PtS_70";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item78
+		{
+			position[]={3597.2837,21.764313,4381.0928};
+			name="PtS_71";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item79
+		{
+			position[]={3617.4844,10.157793,4410.5269};
+			name="PtS_72";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item80
+		{
+			position[]={3386.4382,16.464737,4417.2544};
+			name="PtS_73";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item81
+		{
+			position[]={3316.1558,13.458007,4435.7559};
+			name="PtS_74";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item82
+		{
+			position[]={3295.5347,10.643724,4456.3599};
+			name="PtS_75";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item83
+		{
+			position[]={3228.6194,13.89356,4419.3569};
+			name="PtS_76";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item84
+		{
+			position[]={3219.3608,13.702648,4444.5859};
+			name="PtS_77";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item85
+		{
+			position[]={3245.0327,12.755663,4443.3247};
+			name="PtS_78";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item86
+		{
+			position[]={3353.6118,16.516951,4416.4131};
+			name="PtS_79";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item87
+		{
+			position[]={2988.6963,39,4497.0371};
+			name="PtS_80";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item88
+		{
+			position[]={2979.0483,39,4481.2192};
+			name="PtS_81";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item89
+		{
+			position[]={2968.3503,39,4491.5205};
+			name="PtS_82";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item90
+		{
+			position[]={2981.4141,39,4510.5405};
+			name="PtS_83";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item91
+		{
+			position[]={2930.6243,39,4544.4741};
+			name="PtS_84";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item92
+		{
+			position[]={2560.0527,33.907791,3858.4009};
+			name="PtS_85";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item93
+		{
+			position[]={2576.4353,34.549141,3843.4587};
+			name="PtS_86";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item94
+		{
+			position[]={2530.3623,31.401474,3836.3247};
+			name="PtS_87";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item95
+		{
+			position[]={2533.9534,31.071535,3863.5063};
+			name="PtS_88";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item96
+		{
+			position[]={4430.3418,22.275391,3531.9629};
+			name="PtS_89";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item97
+		{
+			position[]={4417.4077,23.39748,3507.5015};
+			name="PtS_90";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item98
+		{
+			position[]={4391.0771,28.204075,3483.9639};
+			name="PtS_91";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item99
+		{
+			position[]={4403.3184,24.841839,3501.2715};
+			name="PtS_92";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item100
+		{
+			position[]={4362.5449,28.715845,3578.6646};
+			name="PtS_93";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item101
+		{
+			position[]={4417.6387,22.41531,3589.8855};
+			name="PtS_94";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item102
+		{
+			position[]={4264.0483,32.479076,3263.6172};
+			name="ptT_29";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item103
+		{
+			position[]={3556.0159,18.960155,3548.9622};
+			name="ptB";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item104
+		{
+			position[]={3449.7734,18.870855,3665.6951};
+			name="ptB_1";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item105
+		{
+			position[]={3503.2742,18.500187,3668.9023};
+			name="ptB_3";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item106
+		{
+			position[]={3504.3438,18.858501,3700.9749};
+			name="ptB_4";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item107
+		{
+			position[]={4230.4741,35.441109,3242.2888};
+			name="ptB_2";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item108
+		{
+			position[]={4253.2119,33.090446,3236.3533};
+			name="ptB_5";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item109
+		{
+			position[]={4427.354,21.865673,3578.1252};
+			name="ptB_6";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item110
+		{
+			position[]={4384.7793,25.22072,3528.8403};
+			name="ptB_7";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item111
+		{
+			position[]={2962.6926,39,4494.9629};
+			name="ptB_8";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item112
+		{
+			position[]={2976.9707,39,4515.6313};
+			name="ptB_9";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item113
+		{
+			position[]={2926.7178,39,4527.2002};
+			name="ptB_10";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item114
+		{
+			position[]={2997.9221,37.199978,4499.0791};
+			name="ptB_11";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item115
+		{
+			position[]={2982.8425,39.019417,4476.7515};
+			name="ptB_12";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item116
+		{
+			position[]={3249.3857,21.240673,4366.5347};
+			name="ptB_13";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item117
+		{
+			position[]={3306.8682,22.862635,4356.0923};
+			name="ptB_14";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item118
+		{
+			position[]={3484.1665,20.656662,4342.6665};
+			name="ptB_15";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item119
+		{
+			position[]={3482.6731,23.993969,4316.1885};
+			name="ptB_16";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item120
+		{
+			position[]={3512.9072,18.461664,4414.6436};
+			name="ptB_17";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item121
+		{
+			position[]={3563.6709,22.179291,4391.1484};
+			name="ptB_19";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item122
+		{
+			position[]={3446.103,17,4400.4614};
+			name="ptB_20";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item123
+		{
+			position[]={3262.6362,5.192142,4537.6255};
+			name="ptB_18";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item124
+		{
+			position[]={3286.1948,5.3021541,4532.3174};
+			name="ptB_21";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item125
+		{
+			position[]={2564.0232,33.257343,3871.8931};
+			name="ptB_22";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item126
+		{
+			position[]={2589.4048,35.370651,3857.3484};
+			name="ptB_23";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item127
+		{
+			position[]={3587.2852,19.583605,3738.355};
+			name="ptB_24";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item128
+		{
+			position[]={3610.4336,19.19323,3685.1401};
+			name="ptB_25";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item129
+		{
+			position[]={3624.1582,18.941578,3645.843};
+			name="ptB_26";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item130
+		{
+			position[]={3591.9968,19,3637.656};
+			name="ptB_27";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item131
+		{
+			position[]={3552.0513,19,3645.0242};
+			name="ptB_28";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item132
+		{
+			position[]={3520.5044,18.949755,3645.0242};
+			name="ptB_29";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item133
+		{
+			position[]={3599.9729,20.626875,3775.2571};
+			name="ptB_30";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item134
+		{
+			position[]={3888.6702,28,3332.9656};
+			name="ptB_31";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item135
+		{
+			position[]={3882.3252,28,3304.1318};
+			name="ptB_32";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item136
+		{
+			position[]={3829.9551,28,3333.7561};
+			name="ptB_33";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item137
+		{
+			position[]={3872.2869,28,3344.6716};
+			name="ptB_34";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item138
+		{
+			position[]={3675.6475,19.074923,3481.2124};
+			name="ptB_35";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item139
+		{
+			position[]={3719.9934,19.772272,3485.5969};
+			name="ptB_36";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item140
+		{
+			position[]={3590.4214,19,3526.2122};
+			name="ptB_38";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item141
+		{
+			position[]={3724.2588,18.913593,3531.3601};
+			name="ptB_37";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item142
+		{
+			position[]={3796.7822,19,3546.9087};
+			name="ptB_39";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item143
+		{
+			position[]={3180.0994,37.709949,4003.166};
+			name="ptB_40";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item144
+		{
+			position[]={3158.2349,36.700001,4038.6658};
+			name="ptB_41";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item145
+		{
+			position[]={3237.9958,42.93972,4089.8171};
+			name="ptB_42";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item146
+		{
+			position[]={3258.0903,44.979038,4072.5098};
+			name="ptB_43";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item147
+		{
+			position[]={3813.5969,37.913445,4035.4541};
+			name="ptB_44";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item148
+		{
+			position[]={3499.1814,44.430386,4164.6333};
+			name="ptB_45";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item149
+		{
+			position[]={3135.2866,37.679508,3967.3352};
+			name="ptB_46";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item150
+		{
+			position[]={4230.626,33.795284,3271.2715};
+			name="ptB_47";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item151
+		{
+			position[]={4021.4631,27.949249,3113.8181};
+			name="ptB_48";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item152
+		{
+			position[]={4474.5327,6.5000248,3148.533};
+			name="ptB_49";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item153
+		{
+			position[]={3608.8801,24.472582,4350.2456};
+			name="ptB_50";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item154
+		{
+			position[]={3576.9739,25.937332,4333.4785};
+			name="ptB_51";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item155
+		{
+			position[]={3249.5024,9.7235088,4464.4473};
+			name="ptB_52";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item156
+		{
+			position[]={3280.8562,8.6132813,4469.2954};
+			name="ptB_53";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item157
+		{
+			position[]={3194.6331,15.156178,4411.4907};
+			name="ptB_54";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item158
+		{
+			position[]={4257.3916,29.213903,3180.2053};
+			name="ptT_1";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item159
+		{
+			position[]={4421.2715,22.432837,3177.1353};
+			name="ptT_2";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item160
+		{
+			position[]={4269.1143,31.076321,3284.2122};
+			name="ptT_3";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item161
+		{
+			position[]={4261.1445,30.401985,3215.2173};
+			name="ptT_4";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item162
+		{
+			position[]={4250.2793,30.480972,3136.5649};
+			name="ptT_5";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item163
+		{
+			position[]={4430.7495,22.850128,3206.751};
+			name="ptT_6";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item164
+		{
+			position[]={3416.1616,16.89999,4369.6367};
+			name="ptT_7";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item165
+		{
+			position[]={3379.905,17.037136,4356.5952};
+			name="ptT_8";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item166
+		{
+			position[]={3341.876,19.98472,4343.8765};
+			name="ptT_9";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item167
+		{
+			position[]={3243.0964,16.463861,4383.9648};
+			name="ptT_10";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item168
+		{
+			position[]={4355.5322,30.151606,3589.0352};
+			name="ptT_11";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item169
+		{
+			position[]={4406.8652,26.262024,3487.5327};
+			name="ptT_12";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item170
+		{
+			position[]={4383.0288,31.060675,3460.5969};
+			name="ptT_13";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item171
+		{
+			position[]={4351.2388,31.33234,3440.5276};
+			name="ptT_14";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item172
+		{
+			position[]={3332.9104,14.568176,4437.2974};
+			name="ptT_15";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item173
+		{
+			position[]={3377.9622,18.306477,4431.5737};
+			name="ptT_16";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item174
+		{
+			position[]={3463.6394,16.878483,4454.2095};
+			name="ptT_17";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item175
+		{
+			position[]={3543.6597,24.001226,4344.4517};
+			name="ptT_18";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item176
+		{
+			position[]={3854.8518,30.735163,4126.1113};
+			name="ptT_19";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item177
+		{
+			position[]={3902.7683,29.858507,4079.5374};
+			name="ptT_20";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item178
+		{
+			position[]={4311.8047,27.167982,3158.2539};
+			name="ptT_21";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item179
+		{
+			position[]={4417.2803,26.219479,3243.0493};
+			name="ptT_22";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item180
+		{
+			position[]={4416.1606,39.4561,3333.3003};
+			name="ptT_23";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item181
+		{
+			position[]={4465.8789,43.88884,3369.688};
+			name="ptT_24";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item182
+		{
+			position[]={4415.0044,33.670353,3287.7344};
+			name="ptT_25";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item183
+		{
+			position[]={4347.8125,31.764086,3388.2837};
+			name="ptT_26";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item184
+		{
+			position[]={4337.8652,29.639795,3308.7048};
+			name="ptT_27";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item185
+		{
+			position[]={4383.02,34.067223,3330.2031};
+			name="ptT_28";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item186
+		{
+			position[]={4382.7998,30.389889,3294.9988};
+			name="ptT_30";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item187
+		{
+			position[]={4371.3906,27.652334,3267.2483};
+			name="ptB_55";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item188
+		{
+			position[]={4406.7847,27,3224.8611};
+			name="ptB_56";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item189
+		{
+			position[]={4302.8794,29.291363,3270.6543};
+			name="ptB_57";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item190
+		{
+			position[]={4254.9912,29.50177,3147.1926};
+			name="ptB_58";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item191
+		{
+			position[]={4103.2666,37.838921,3280.8953};
+			name="PtS_95";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item192
+		{
+			position[]={3778.377,27.841391,3392.1184};
+			name="PtS_96";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item193
+		{
+			position[]={3766.1724,30.629103,3341.2397};
+			name="PtS_97";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item194
+		{
+			position[]={4086.6633,40.012421,3251.3599};
+			name="PtS_98";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item195
+		{
+			position[]={4044.6274,43.78236,3252.0522};
+			name="PtS_99";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item196
+		{
+			position[]={3981.0054,47.223442,3248.9797};
+			name="PtS_100";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item197
+		{
+			position[]={2806.9141,72.649216,3838.9785};
+			name="PtS_101";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item198
+		{
+			position[]={2462.5269,12.521999,3906.3472};
+			name="PtS_103";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item199
+		{
+			position[]={2522.428,11.689646,3691.1367};
+			name="PtS_104";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item200
+		{
+			position[]={3252.7717,7.6133881,3503.2761};
+			name="PtS_105";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item201
+		{
+			position[]={3521.9434,28.283567,2963.0044};
+			name="PtS_106";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item202
+		{
+			position[]={4221.332,19.069517,2703.3125};
+			name="PtS_107";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item203
+		{
+			position[]={4596.1758,33.273228,3206.4316};
+			name="PtS_108";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item204
+		{
+			position[]={4474.2388,21.276323,3628.3291};
+			name="PtS_109";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item205
+		{
+			position[]={4072.2983,24.507349,4070.5322};
+			name="PtS_110";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item206
+		{
+			position[]={3490.3281,28.617886,4591.6582};
+			name="PtS_111";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item207
+		{
+			position[]={3250.4097,5.4151525,4548.8115};
+			name="PtS_112";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item208
+		{
+			position[]={3183.9692,5.319015,4596.5474};
+			name="PtS_113";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item209
+		{
+			position[]={3219.802,5.5161314,4569.6958};
+			name="PtS_114";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item210
+		{
+			position[]={2822.4761,19.517866,4551.2827};
+			name="PtS_115";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item211
+		{
+			position[]={3001.3486,26.106201,4598.8501};
+			name="PtS_116";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item212
+		{
+			position[]={3245.3523,44.06052,4077.2124};
+			name="PtS_117";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item213
+		{
+			position[]={3268.9893,45.095306,4023.2048};
+			name="PtS_118";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item214
+		{
+			position[]={3230.1875,40.251221,3972.2075};
+			name="PtS_119";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item215
+		{
+			position[]={3160.3965,38.100014,3969.606};
+			name="PtS_120";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item216
+		{
+			position[]={3128.8862,37.206268,4006.0322};
+			name="PtS_121";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item217
+		{
+			position[]={3118.209,35.397182,4062.2332};
+			name="PtS_122";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item218
+		{
+			position[]={3202.5835,40.933102,4087.4717};
+			name="PtS_123";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item219
+		{
+			position[]={3878.0076,30.229355,4101.6782};
+			name="PtS_124";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item220
+		{
+			position[]={3821.3975,31.966665,4148.3164};
+			name="PtS_125";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item221
+		{
+			position[]={3936.9346,30.081524,4039.4946};
+			name="PtS_126";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item222
+		{
+			position[]={3393.01,19,3663.6255};
+			name="ptB_59";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item223
+		{
+			position[]={3531.1248,20.044687,3730.9685};
+			name="ptT_31";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item224
+		{
+			position[]={3933.8379,31,3308.2114};
+			name="ptB_60";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item225
+		{
+			position[]={3628.8557,18.95443,3514.5566};
+			name="ptA_5";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item226
+		{
+			position[]={2951.1213,39,4540.2607};
+			name="ptA_6";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item227
+		{
+			position[]={4027.1362,27.039684,3103.2996};
+			name="PtS_127";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item228
+		{
+			position[]={4008.5015,27.992138,3115.7678};
+			name="PtS_128";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item229
+		{
+			position[]={4452.1855,7.0734177,3139.0691};
+			name="PtS_129";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item230
+		{
+			position[]={4477.0156,6.8606081,3164.7185};
+			name="PtS_130";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item231
+		{
+			position[]={3825.6687,36.307762,4039.7756};
+			name="PtS_131";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item232
+		{
+			position[]={3807.0059,39.955322,4023.3665};
+			name="PtS_132";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item233
+		{
+			position[]={3302.6296,7.6049824,4527.1045};
+			name="PtS_133";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item234
+		{
+			position[]={2913.9968,37.14024,4564.1709};
+			name="PtS_134";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item235
+		{
+			position[]={2906.1843,36.88472,4488.9761};
+			name="PtS_135";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item236
+		{
+			position[]={2967.9028,38.156361,4462.1768};
+			name="PtS_136";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item237
+		{
+			position[]={3010.0901,31.994125,4525.4023};
+			name="PtS_137";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item238
+		{
+			position[]={3940.0415,18.823767,3657.623};
+			name="PtC";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item239
+		{
+			position[]={3871.6162,20.352215,3466.8591};
+			name="PtC_1";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item240
+		{
+			position[]={3194.0081,7.6815257,4534.7661};
+			name="PtC_2";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item241
+		{
+			position[]={4162.9966,36.441002,3148.1082};
+			name="PtC_3";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item242
+		{
+			position[]={4195.3682,11.829359,3814.3721};
+			name="PtS_102";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item243
+		{
+			position[]={3999.1992,29.500671,3770.5139};
+			name="PtS_138";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item244
+		{
+			position[]={3860.772,44.14222,3827.0059};
+			name="PtS_139";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3726.4807,18.963928,3513.6067};
+			a=500;
+			b=400;
+			activationBy="LOGIC";
+			repeating=1;
+			age="UNKNOWN";
+			text="helos = [1,2,5]";
+			name="z1";
+			expCond="time > 1";
+			expActiv="fun=[""z1"",[1,1,0],[5,2,10,9],[3,1,10,9],[3,1,10,9],[1,1,50,0,100,10],[1,1,1,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=8793279;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=12543531;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=7242743;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};

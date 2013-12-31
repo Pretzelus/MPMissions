@@ -1,0 +1,184 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters2",
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"chernarus"
+	};
+	randomSeed=12273773;
+	class Intel
+	{
+		startWeather=0.39999998;
+		forecastWeather=0.39999998;
+		year=2009;
+		month=12;
+		day=28;
+		hour=16;
+		minute=0;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3671.1084,303.31143,8248.6729};
+					azimut=-61.461651;
+					id=0;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					text="s1";
+				};
+			};
+		};
+	};
+	class Sensors
+	{
+		items=4;
+		class Item0
+		{
+			position[]={3150.304,303.7312,7867.7529};
+			a=800;
+			b=800;
+			angle=-13.0007;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z1";
+			expCond="time > 1";
+			expActiv="fun=[""z1"",[1,0,0],[10,3,50,8],[],[3,1,10,10],[],[1,1,1,1]] spawn DAC_Zone;";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={3895.4675,310.92001,8913.0176};
+			a=800;
+			b=800;
+			angle=-13.0007;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z2";
+			expCond="time > 1";
+			expActiv="fun=[""z2"",[2,0,0],[10,3,50,8],[],[3,1,10,10],[],[0,0,0,0]] spawn DAC_Zone;";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={3238.0017,313.72986,7748.3047};
+			a=300;
+			b=200;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z1_1";
+			expCond="time > 1";
+			expActiv="fun=[""z1_1"",[3,0,0],[],[],[],[1,2,50,0,100,50],[1,1,1,1]] spawn DAC_Zone;";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={4259.5215,324,8902.2979};
+			a=300;
+			b=200;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z2_1";
+			expCond="time > 1";
+			expActiv="fun=[""z2_1"",[4,0,0],[],[],[],[1,2,50,0,100,50],[0,0,0,0]] spawn DAC_Zone;";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=12316434;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=465623;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=10757471;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};

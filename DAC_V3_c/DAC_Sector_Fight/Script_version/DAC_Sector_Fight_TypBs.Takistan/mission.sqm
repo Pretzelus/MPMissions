@@ -1,0 +1,660 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters_e",
+		"takistan",
+		"dac_source",
+		"CAWheeled_E",
+		"caweapons_e_ammoboxes"
+	};
+	addOnsAuto[]=
+	{
+		"dac_source",
+		"cacharacters_e",
+		"CAWheeled_E",
+		"caweapons_e_ammoboxes",
+		"takistan"
+	};
+	randomSeed=11086695;
+	class Intel
+	{
+		startWeather=0.47613561;
+		startFog=0.00026938511;
+		forecastWeather=0.47225761;
+		year=2009;
+		month=12;
+		day=28;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=4;
+		class Item0
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={11992.834,370.96298,1970.037};
+					id=0;
+					side="LOGIC";
+					vehicle="DAC_Source_Extern";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=8;
+				class Item0
+				{
+					position[]={11930.111,373.39685,2641.3914};
+					azimut=-180.133;
+					id=1;
+					side="WEST";
+					vehicle="GER_Soldier_TL_EP1";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					text="s1";
+				};
+				class Item1
+				{
+					position[]={11927.101,373.79401,2646.385};
+					azimut=-180.1328;
+					id=2;
+					side="WEST";
+					vehicle="GER_Soldier_MG_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.33333331;
+					text="s2";
+				};
+				class Item2
+				{
+					position[]={11925.1,373.80936,2646.377};
+					azimut=-180.1328;
+					id=3;
+					side="WEST";
+					vehicle="GER_Soldier_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.33333331;
+					text="s3";
+				};
+				class Item3
+				{
+					position[]={11921.102,373.85324,2646.3696};
+					azimut=-180.1328;
+					id=4;
+					side="WEST";
+					vehicle="GER_Soldier_Scout_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.33333331;
+					text="s5";
+				};
+				class Item4
+				{
+					position[]={11923.099,373.83109,2646.3723};
+					azimut=-180.1328;
+					id=5;
+					side="WEST";
+					vehicle="GER_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.2;
+					text="s4";
+				};
+				class Item5
+				{
+					position[]={11919.104,373.87546,2646.3677};
+					azimut=-180.1328;
+					id=6;
+					side="WEST";
+					vehicle="GER_Soldier_Medic_EP1";
+					player="PLAY CDG";
+					skill=0.2;
+					text="s6";
+				};
+				class Item6
+				{
+					position[]={11925.375,373.44449,2641.533};
+					id=18;
+					side="WEST";
+					vehicle="GER_Soldier_MG_EP1";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="s7";
+				};
+				class Item7
+				{
+					position[]={11923.324,373.46304,2641.4863};
+					id=19;
+					side="WEST";
+					vehicle="GER_Soldier_Medic_EP1";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="s8";
+				};
+			};
+		};
+		class Item2
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9495.084,469.54803,1271.5463};
+					id=7;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.2;
+					init="this setdir 5";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={7473.6479,271.27493,78.068665};
+					type="AND";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={5451.6704,548.55646,3130.7888};
+					type="AND";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={8403.2842,457.27112,3750.1619};
+					type="AND";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12047.215,370.17337,2634.1904};
+					id=17;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="this setdir 5";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={11974.095,373.40063,2556.8374};
+					type="AND";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=9;
+		class Item0
+		{
+			position[]={11927.131,375.67221,2667.2866};
+			azimut=-180.36453;
+			id=8;
+			side="EMPTY";
+			vehicle="Offroad_DSHKM_TK_GUE_EP1";
+			leader=1;
+			skill=0.2;
+		};
+		class Item1
+		{
+			position[]={11922.118,375.50784,2664.4775};
+			azimut=-180.36453;
+			id=9;
+			side="EMPTY";
+			vehicle="Offroad_DSHKM_TK_GUE_EP1";
+			leader=1;
+			skill=0.2;
+		};
+		class Item2
+		{
+			position[]={11916.602,375.44818,2662.7722};
+			azimut=-180.36453;
+			id=10;
+			side="EMPTY";
+			vehicle="Offroad_DSHKM_TK_GUE_EP1";
+			leader=1;
+			skill=0.2;
+		};
+		class Item3
+		{
+			position[]={11910.886,375.27032,2659.8633};
+			azimut=-180.36453;
+			id=11;
+			side="EMPTY";
+			vehicle="Offroad_DSHKM_TK_GUE_EP1";
+			leader=1;
+			skill=0.2;
+		};
+		class Item4
+		{
+			position[]={11935.152,374.5343,2656.1531};
+			id=12;
+			side="EMPTY";
+			vehicle="USBasicWeapons_EP1";
+			leader=1;
+			skill=0.2;
+		};
+		class Item5
+		{
+			position[]={11936.257,374.345,2654.0459};
+			id=13;
+			side="EMPTY";
+			vehicle="USLaunchers_EP1";
+			leader=1;
+			skill=0.2;
+		};
+		class Item6
+		{
+			position[]={11937.26,374.14835,2651.8403};
+			id=14;
+			side="EMPTY";
+			vehicle="USBasicAmmunitionBox_EP1";
+			leader=1;
+			skill=0.2;
+		};
+		class Item7
+		{
+			position[]={11934.552,374.74069,2658.3596};
+			id=15;
+			side="EMPTY";
+			vehicle="USSpecialWeapons_EP1";
+			leader=1;
+			skill=0.2;
+		};
+		class Item8
+		{
+			position[]={11938.363,373.94861,2649.5332};
+			id=16;
+			side="EMPTY";
+			vehicle="UNBasicAmmunitionBox_EP1";
+			leader=1;
+			skill=0.2;
+		};
+	};
+	class Markers
+	{
+		items=7;
+		class Item0
+		{
+			position[]={12592.59,617.18817,2180.7693};
+			name="respawn_west";
+			type="Empty";
+			angle=-180.1328;
+		};
+		class Item1
+		{
+			position[]={14746.109,309.94595,-1378.4728};
+			name="fZone";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="Border";
+			a=100;
+			b=100;
+			drawBorder=1;
+		};
+		class Item2
+		{
+			position[]={14725.231,310.40494,-1351.7374};
+			name="zoneyplus";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			a=10;
+			b=10;
+		};
+		class Item3
+		{
+			position[]={14736.008,310.27469,-1375.1195};
+			name="zonexplus";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			a=10;
+			b=10;
+		};
+		class Item4
+		{
+			position[]={14770.131,307.41,-1378.1044};
+			name="zoneyminus";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			a=10;
+			b=10;
+		};
+		class Item5
+		{
+			position[]={14763.463,309.35406,-1352.087};
+			name="zonexminus";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			a=10;
+			b=10;
+		};
+		class Item6
+		{
+			position[]={14742.283,309.18506,-1347.5887};
+			name="zonexyok";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			a=10;
+			b=10;
+		};
+	};
+	class Sensors
+	{
+		items=12;
+		class Item0
+		{
+			position[]={11992.394,373.9895,2574.7842};
+			a=100;
+			b=100;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z1";
+			expCond="time > 1";
+			expActiv="fun=[""z1"",[101,0,0],[],[],[],[1,2,50,0,100,50],[1,1,1,1]] spawn DAC_Zone;";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={8230.0342,296.04001,2014.1827};
+			a=3200;
+			b=2000;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z2";
+			expCond="time > 1";
+			expActiv="fun=[""z2"",[1,0,0],[""45"",3,60,20],[""8"",2,30,20],[""6"",1,30,20],[3,2,50,0,100,50],[0,0,0,0]] spawn DAC_Zone;";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={11026.864,406.52731,2483.2629};
+			a=120;
+			b=120;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z3";
+			expCond="time > 1";
+			expActiv="fun=[""z3"",[3,0,0],[10],[5],[5],[],[0,0,3,0]] spawn DAC_Zone;nul=[""z3"",""""] execVM ""CreateSector.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={10112.711,346.86087,2368.4553};
+			a=300;
+			b=150;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z4";
+			expCond="time > 1";
+			expActiv="fun=[""z4"",[4,0,0],[10],[5],[5],[],[0,0,3,0]] spawn DAC_Zone;nul=[""z4"",""""] execVM ""CreateSector.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item4
+		{
+			position[]={9255.1094,343.86383,1832.0198};
+			a=150;
+			b=150;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z5";
+			expCond="time > 1";
+			expActiv="fun=[""z5"",[5,0,0],[10],[5],[5],[],[0,0,3,0]] spawn DAC_Zone;nul=[""z5"",""""] execVM ""CreateSector.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item5
+		{
+			position[]={8495.1182,301.68237,2413.6226};
+			a=200;
+			b=200;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z6";
+			expCond="time > 1";
+			expActiv="fun=[""z6"",[6,0,0],[10],[5],[5],[],[0,0,3,0]] spawn DAC_Zone;nul=[""z6"",""""] execVM ""CreateSector.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item6
+		{
+			position[]={6509.251,343.68475,2025.426};
+			a=200;
+			b=200;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z8";
+			expCond="time > 1";
+			expActiv="fun=[""z8"",[8,0,0],[10],[5],[5],[],[0,0,3,0]] spawn DAC_Zone;nul=[""z8"",""""] execVM ""CreateSector.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item7
+		{
+			position[]={6073.7974,297.65311,1148.0952};
+			a=300;
+			b=150;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z9";
+			expCond="time > 1";
+			expActiv="fun=[""z9"",[9,0,0],[10],[5],[5],[],[0,0,3,0]] spawn DAC_Zone;nul=[""z9"",""""] execVM ""CreateSector.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item8
+		{
+			position[]={7089.2275,290.92996,986.25983};
+			a=200;
+			b=220;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z10";
+			expCond="time > 1";
+			expActiv="fun=[""z10"",[10,0,0],[10],[5],[5],[],[0,0,3,0]] spawn DAC_Zone;nul=[""z10"",""""] execVM ""CreateSector.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item9
+		{
+			position[]={7538.5063,287.36691,1803.4564};
+			a=150;
+			b=200;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z7";
+			expCond="time > 1";
+			expActiv="fun=[""z7"",[7,0,0],[10],[5],[5],[],[0,0,3,0]] spawn DAC_Zone;nul=[""z7"",""""] execVM ""CreateSector.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item10
+		{
+			position[]={11816.035,369.25006,2406.7522};
+			a=100;
+			b=100;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z1_1";
+			expCond="time > 1";
+			expActiv="fun=[""z1_1"",[100,0,0],[cSetting,sSetting,10,4],[],[],[],[1,1,4,1]] spawn DAC_Zone;";
+			class Effects
+			{
+			};
+		};
+		class Item11
+		{
+			position[]={12591.113,617.30115,2178.4033};
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="atMarker";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=7631831;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=3668004;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=9524041;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};

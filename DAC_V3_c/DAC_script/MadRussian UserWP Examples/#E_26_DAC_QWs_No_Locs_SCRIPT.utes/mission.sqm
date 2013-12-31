@@ -1,0 +1,690 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters2",
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"utes"
+	};
+	randomSeed=2763449;
+	class Intel
+	{
+		startWeather=0.39999998;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+	class Groups
+	{
+		items=4;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3594.9705,18.866787,3653.3206};
+					azimut=-207.20477;
+					id=0;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					text="s1";
+				};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+		};
+		class Item2
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3018.8164,0.29388857,3038.2742};
+					id=1;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="DAC_Com_Values = [1,1,3];";
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3016.9673,0.38101482,3178.9382};
+					id=2;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="DAC_Marker = 12";
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=66;
+		class Item0
+		{
+			position[]={4271.1602,28.468498,3138.0774};
+			name="Inf";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item1
+		{
+			position[]={4265.6865,31.231943,3227.4063};
+			name="Inf_1";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item2
+		{
+			position[]={4253.644,31.076269,3208.0823};
+			name="Inf_2";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item3
+		{
+			position[]={4292.0786,28.297606,3204.1292};
+			name="Inf_3";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item4
+		{
+			position[]={4308.5981,27.04003,3185.6716};
+			name="Inf_4";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item5
+		{
+			position[]={4318.9009,26.900557,3176.6204};
+			name="Inf_5";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item6
+		{
+			position[]={4336.4858,27,3181.9446};
+			name="Inf_6";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item7
+		{
+			position[]={4356.3804,27,3164.375};
+			name="Inf_7";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item8
+		{
+			position[]={4368.6367,27.097071,3155.1465};
+			name="Inf_8";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item9
+		{
+			position[]={4339.731,25.089767,3152.9568};
+			name="Inf_9";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item10
+		{
+			position[]={4382.6689,25.961708,3146.095};
+			name="Inf_10";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item11
+		{
+			position[]={4401.4976,26.85025,3183.1873};
+			name="Inf_11";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item12
+		{
+			position[]={4380.0044,27,3181.5901};
+			name="Inf_12";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item13
+		{
+			position[]={4389.064,27,3204.4841};
+			name="Inf_13";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item14
+		{
+			position[]={4378.2285,27,3209.8083};
+			name="Inf_14";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item15
+		{
+			position[]={4416.7061,26.200499,3205.7039};
+			name="Inf_15";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item16
+		{
+			position[]={4389.9731,27,3244.6233};
+			name="Inf_16";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item17
+		{
+			position[]={4375.2065,27,3252.509};
+			name="Inf_17";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item18
+		{
+			position[]={4295.5327,28.413853,3235.1702};
+			name="Inf_18";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item19
+		{
+			position[]={4335.1436,27,3228.781};
+			name="Inf_19";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item20
+		{
+			position[]={4324.4858,27,3238.1873};
+			name="Inf_20";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item21
+		{
+			position[]={4295.1777,29.067976,3254.5151};
+			name="Inf_21";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item22
+		{
+			position[]={4288.6055,29.508137,3243.1567};
+			name="Inf_22";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item23
+		{
+			position[]={4315.96,29.185255,3286.8154};
+			name="Inf_23";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item24
+		{
+			position[]={4334.3359,27.464851,3254.5413};
+			name="Inf_24";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item25
+		{
+			position[]={4350.1328,27.798203,3268.8689};
+			name="Inf_25";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item26
+		{
+			position[]={4367.2207,26.325306,3144.2957};
+			name="Inf_26";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item27
+		{
+			position[]={4327.0269,26.911011,3168.8875};
+			name="Inf_27";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item28
+		{
+			position[]={4253.625,29.628422,3164.8772};
+			name="Inf_28";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item29
+		{
+			position[]={3524.4895,19,3521.2307};
+			name="Armor";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item30
+		{
+			position[]={3582.7275,18.927269,3517.9075};
+			name="Armor_1";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item31
+		{
+			position[]={3641.2258,19.09869,3504.4524};
+			name="Armor_2";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item32
+		{
+			position[]={3671.1057,19,3536.4092};
+			name="Armor_3";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item33
+		{
+			position[]={3778.8433,19,3529.6814};
+			name="Armor_4";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item34
+		{
+			position[]={3717.3994,19.346397,3488.4739};
+			name="Armor_5";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item35
+		{
+			position[]={3666.1382,19.37767,3476.9089};
+			name="Armor_6";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item36
+		{
+			position[]={3621.0603,18.985792,3641.4204};
+			name="Armor_7";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item37
+		{
+			position[]={3548.9351,18.989351,3647.5835};
+			name="Armor_8";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item38
+		{
+			position[]={3548.4604,18.967937,3701.6306};
+			name="Armor_9";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item39
+		{
+			position[]={3576.4568,18.445162,3699.7341};
+			name="Armor_10";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item40
+		{
+			position[]={3610.6208,22.730453,3763.7371};
+			name="Armor_11";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item41
+		{
+			position[]={3557.4763,19.824656,3756.6255};
+			name="Armor_12";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item42
+		{
+			position[]={4002.8933,18.928926,3547.6499};
+			name="Armor_15";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item43
+		{
+			position[]={4001.7817,29.204205,3771.0298};
+			name="Armor_16";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item44
+		{
+			position[]={3245.0986,20.691572,4367.1289};
+			name="Wheels";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item45
+		{
+			position[]={3527.8931,19.862593,4403.9487};
+			name="Wheels_1";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item46
+		{
+			position[]={3558.7231,22.331644,4385.7603};
+			name="Wheels_2";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item47
+		{
+			position[]={3573.4036,24.988579,4342.0493};
+			name="Wheels_3";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item48
+		{
+			position[]={3516.5059,26.826803,4309.9873};
+			name="Wheels_4";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item49
+		{
+			position[]={3482.6763,20.344719,4344.6895};
+			name="Wheels_5";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item50
+		{
+			position[]={3222.6575,27.74369,4318.1846};
+			name="Wheels_6";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item51
+		{
+			position[]={3284.1772,9.1387711,4464.604};
+			name="Wheels_7";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item52
+		{
+			position[]={3241.2524,10.896203,4459.0098};
+			name="Wheels_8";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item53
+		{
+			position[]={3446.0576,17,4398.5664};
+			name="Wheels_9";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item54
+		{
+			position[]={2959.9263,39,4496.1929};
+			name="Wheels_10";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item55
+		{
+			position[]={2974.8232,39,4515.377};
+			name="Wheels_11";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item56
+		{
+			position[]={2929.938,39,4525.4028};
+			name="Wheels_12";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item57
+		{
+			position[]={3288.7683,22.912275,4356.3027};
+			name="Wheels_13";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item58
+		{
+			position[]={3504.0662,42.327595,4178.4146};
+			name="Wheels_14";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item59
+		{
+			position[]={3630.7495,36.485992,4199.7651};
+			name="Wheels_15";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item60
+		{
+			position[]={3263.1846,4.7400465,4558.1904};
+			name="Wheels_16";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item61
+		{
+			position[]={3391.9856,19,3664.5164};
+			name="Helo";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item62
+		{
+			position[]={3198.687,40.236172,4053.5962};
+			name="Helo_1";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item63
+		{
+			position[]={2614.5032,38.040539,3840.9856};
+			name="Helo_2";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item64
+		{
+			position[]={2885.3596,2.0526695,3527.7646};
+			name="Helo_3";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item65
+		{
+			position[]={2956.335,51.010193,3810.9019};
+			name="Helo_4";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+	};
+	class Sensors
+	{
+		items=4;
+		class Item0
+		{
+			position[]={3822.6272,19,3632.511};
+			a=330;
+			b=200;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			age="UNKNOWN";
+			name="z3";
+			expCond="time > 1";
+			expActiv="fun=[""z3"",[3,0,0],[],[],[3,1,10,9],[],[1,1,1,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={4280.4233,28.516306,3201.8765};
+			a=300;
+			b=200;
+			angle=-34.229099;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			age="UNKNOWN";
+			name="z1";
+			expCond="time > 1";
+			expActiv="fun=[""z1"",[1,0,0],[5,1,10,9],[],[],[],[1,1,1,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={3283.1565,20.832584,4366.0264};
+			a=400;
+			b=200;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			age="UNKNOWN";
+			name="z2";
+			expCond="time > 1";
+			expActiv="fun=[""z2"",[2,0,0],[],[3,1,10,9],[],[],[1,1,1,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={2953.6069,41.801296,3759.9822};
+			a=500;
+			b=330;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			age="UNKNOWN";
+			name="z4";
+			expCond="time > 1";
+			expActiv="fun=[""z4"",[4,0,0],[],[],[],[1,2,5],[1,1,1,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=8793279;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=12543531;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=7242743;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};

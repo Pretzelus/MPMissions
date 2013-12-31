@@ -35,7 +35,6 @@ player createDiaryRecord ["diary", ["Situation","War has changed. It's no longer
 
 //Init UPSMON script
 call compile preprocessFileLineNumbers "scripts\Init_UPSMON.sqf";
-//Process statements stored using setVehicleInit
-//processInitCommands;
+
 //Finish world initialization before mission is launched. 
 finishMissionInit;

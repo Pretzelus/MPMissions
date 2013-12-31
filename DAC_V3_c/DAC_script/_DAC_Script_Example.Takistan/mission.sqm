@@ -1,0 +1,188 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"takistan",
+		"cacharacters_e",
+		"zargabad"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters_e",
+		"takistan"
+	};
+	randomSeed=12273773;
+	class Intel
+	{
+		startWeather=0.39999998;
+		forecastWeather=0.39999998;
+		year=2009;
+		month=12;
+		day=28;
+		hour=16;
+		minute=0;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5905.2583,80.450294,9784.6572};
+					azimut=-36.131046;
+					id=0;
+					side="WEST";
+					vehicle="US_Soldier_EP1";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					text="s1";
+				};
+			};
+		};
+	};
+	class Sensors
+	{
+		items=4;
+		class Item0
+		{
+			position[]={5676.2339,84.798729,9555.5957};
+			a=800;
+			b=800;
+			angle=-13.0007;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z1";
+			expCond="time > 1";
+			expActiv="fun=[""z1"",[1,0,0],[10,3,50,8],[],[3,1,10,10],[],[1,12,1,4]] spawn DAC_Zone;";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={6019.2612,67.119362,10588.197};
+			a=800;
+			b=800;
+			angle=-13.00069;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z2";
+			expCond="time > 1";
+			expActiv="fun=[""z2"",[2,0,0],[10,3,50,8],[],[3,1,10,10],[],[0,9,0,3]] spawn DAC_Zone;";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={5231.9707,111.50916,9413.9941};
+			a=300;
+			b=200;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z1_1";
+			expCond="time > 1";
+			expActiv="fun=[""z1_1"",[3,0,0],[],[],[],[1,2,50,0,100,50],[1,12,1,4]] spawn DAC_Zone;";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={5813.3569,75.108902,11011.046};
+			a=300;
+			b=200;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z2_1";
+			expCond="time > 1";
+			expActiv="fun=[""z2_1"",[4,0,0],[],[],[],[1,2,50,0,100,50],[0,9,0,3]] spawn DAC_Zone;";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan",
+		"zargabad"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=12316434;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan",
+		"zargabad"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=465623;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan",
+		"zargabad"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=10757471;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};

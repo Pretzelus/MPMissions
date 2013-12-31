@@ -1,0 +1,89 @@
+#include "Sound\_DACSound.hpp"
+#include "Respawn\MouseControl.hpp"
+
+class Header
+{
+  gameType = Coop;
+  minPlayers = 1;
+  maxPlayers = 8;
+};
+
+onLoadMission = "Sector Fight Mission";
+OnLoadMissionTime = FALSE;
+
+class Params
+{
+	class Respawn_count
+	{
+		title = "Respawn count:";
+		values[] = {5,10,15,20};
+		default = 15;
+		texts[] = {"5","10","15","20"};
+	};
+	class Respawn_time
+	{
+		title = "Auto Respawn after:";
+		values[] = {0,10,30,60,120,180,300,600};
+		default = 180;
+		texts[] = {"0s","10s","30s","60s","120s","180s","300s","600s"};
+	};
+	class Respawn_cam_move
+	{
+		title = "Respawn cam movement:";
+		values[] = {0,1};
+		default = 1;
+		texts[] = {"false","true"};
+	};
+	class Respawn_cam_dist
+	{
+		title = "Respawn cam distance:";
+		values[] = {10,30,50,75,100,150,200};
+		default = 50;
+		texts[] = {"10","30","50","75","100","150","200"};
+	};
+	class Respawn_level
+	{
+		title = "DAC_AI_Level:";
+		values[] = {1,2,3,4};
+		default = 2;
+		texts[] = {"1","2","3","4"};
+	};
+	class Respawn_autocount
+	{
+		title = "DAC_Auto_UnitCount:";
+		values[] = {2,4,6,8,10};
+		default = 4;
+		texts[] = {"Basic = 2 Player","Basic = 4 Player","Basic = 6 Player","Basic = 8 Player","Basic = 10 Player"};
+	};
+	class Respawn_support_count
+	{
+		title = "Count support groups:";
+		values[] = {1,2,3,4};
+		default = 2;
+		texts[] = {"1","2","3","4"};
+	};
+	class Respawn_support_size
+	{
+		title = "Size support groups:";
+		values[] = {1,2,3,4};
+		default = 2;
+		texts[] = {"2-4","3-6","4-8","6-12"};
+	};
+};
+
+
+enableTeamSwitch = false;
+
+
+Respawn = BASE;
+RespawnDelay = 5;
+disabledAI = 1;
+
+
+//Mapoptions
+ShowGPS=1;
+ShowCompass=1;
+ShowMap=1;
+ShowNotePad=1;
+ShowWatch=1;
+ShowDebriefing=1;

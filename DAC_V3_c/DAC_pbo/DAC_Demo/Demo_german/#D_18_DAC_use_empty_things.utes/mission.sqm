@@ -1,0 +1,525 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters2",
+		"utes",
+		"dac_source",
+		"CAWheeled2_LAV25",
+		"CAWheeled",
+		"caweapons",
+		"map_eu",
+		"cawheeled2_m1114_armored"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"dac_source",
+		"CAWheeled2_LAV25",
+		"cawheeled2_m1114_armored",
+		"CAWheeled",
+		"caweapons",
+		"map_eu",
+		"utes"
+	};
+	randomSeed=15002217;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+	class Groups
+	{
+		items=6;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3146.791,36.700001,4037.2778};
+					azimut=-217.1451;
+					id=0;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					text="s1";
+				};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2481.9231,0.24877921,4443.0967};
+					id=1;
+					side="LOGIC";
+					vehicle="DAC_Source_Intern";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item2
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2481.9231,0.50032938,4404.832};
+					id=2;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="DAC_Marker = 3";
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2481.0146,0.15606311,4368.6514};
+					id=3;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="DAC_Com_Values = [1,2,3]";
+				};
+			};
+		};
+		class Item4
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2480.9011,0.61402965,4322.0254};
+					id=22;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="DAC_Single_Config = [""Behaviour""]";
+				};
+			};
+		};
+		class Item5
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2481.0149,0.45341069,4277.5479};
+					id=23;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="DAC_Reduce_Value = [2000,2050,0.3]";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=25;
+		class Item0
+		{
+			position[]={3924.2432,39.289085,3849.9424};
+			azimut=209.63777;
+			id=4;
+			side="EMPTY";
+			vehicle="LAV25";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={3887.9971,18.90465,3649.5339};
+			azimut=45.045898;
+			id=5;
+			side="EMPTY";
+			vehicle="HMMWV_Armored";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={4078.2168,24.041826,3765.4353};
+			azimut=165.71988;
+			id=6;
+			side="EMPTY";
+			vehicle="UAZ_RU";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={4041.3347,20.657726,3452.2212};
+			azimut=143.19992;
+			id=7;
+			side="EMPTY";
+			vehicle="HMMWV_M2";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item4
+		{
+			position[]={2964.6382,39,4483.771};
+			azimut=84.463097;
+			id=8;
+			side="EMPTY";
+			vehicle="M2StaticMG";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item5
+		{
+			position[]={2976.0176,39,4518.6128};
+			azimut=84.463097;
+			id=9;
+			side="EMPTY";
+			vehicle="M2StaticMG";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item6
+		{
+			position[]={2927.4802,39,4512.3408};
+			azimut=84.463097;
+			id=10;
+			side="EMPTY";
+			vehicle="M2StaticMG";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item7
+		{
+			position[]={2945.3625,39,4530.2266};
+			azimut=84.463097;
+			id=11;
+			side="EMPTY";
+			vehicle="M2StaticMG";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item8
+		{
+			position[]={3637.9531,46.199863,3990.4553};
+			azimut=14.3749;
+			id=12;
+			side="EMPTY";
+			vehicle="MAP_dum_istan3_pumpa";
+			skill=0.60000002;
+			init="this setdir (direction this);m=createmarker [format[""m%1"",this], [(position this select 0),(position this select 1)]];m setMarkerShape ""RECTANGLE"";m setMarkerColor ""ColorWhite"";m setMarkerSize [((boundingBox this select 1) select 0),((boundingBox this select 1) select 1)];m setMarkerDir (direction this);";
+		};
+		class Item9
+		{
+			position[]={3633.2012,45.42086,4023.5603};
+			azimut=193.591;
+			id=13;
+			side="EMPTY";
+			vehicle="MAP_dum_istan3_pumpa";
+			skill=0.60000002;
+			init="this setdir (direction this);m=createmarker [format[""m%1"",this], [(position this select 0),(position this select 1)]];m setMarkerShape ""RECTANGLE"";m setMarkerColor ""ColorWhite"";m setMarkerSize [((boundingBox this select 1) select 0),((boundingBox this select 1) select 1)];m setMarkerDir (direction this);";
+		};
+		class Item10
+		{
+			position[]={3606.8135,44.094177,4032.1633};
+			azimut=193.591;
+			id=14;
+			side="EMPTY";
+			vehicle="MAP_dum_istan3_pumpa";
+			skill=0.60000002;
+			init="this setdir (direction this);m=createmarker [format[""m%1"",this], [(position this select 0),(position this select 1)]];m setMarkerShape ""RECTANGLE"";m setMarkerColor ""ColorWhite"";m setMarkerSize [((boundingBox this select 1) select 0),((boundingBox this select 1) select 1)];m setMarkerDir (direction this);";
+		};
+		class Item11
+		{
+			position[]={3579.2927,43.371826,4035.7275};
+			azimut=193.591;
+			id=15;
+			side="EMPTY";
+			vehicle="MAP_dum_istan3_pumpa";
+			skill=0.60000002;
+			init="this setdir (direction this);m=createmarker [format[""m%1"",this], [(position this select 0),(position this select 1)]];m setMarkerShape ""RECTANGLE"";m setMarkerColor ""ColorWhite"";m setMarkerSize [((boundingBox this select 1) select 0),((boundingBox this select 1) select 1)];m setMarkerDir (direction this);";
+		};
+		class Item12
+		{
+			position[]={3610.2627,44.018604,4000.021};
+			azimut=14.3749;
+			id=16;
+			side="EMPTY";
+			vehicle="MAP_dum_istan3_pumpa";
+			skill=0.60000002;
+			init="this setdir (direction this);m=createmarker [format[""m%1"",this], [(position this select 0),(position this select 1)]];m setMarkerShape ""RECTANGLE"";m setMarkerColor ""ColorWhite"";m setMarkerSize [((boundingBox this select 1) select 0),((boundingBox this select 1) select 1)];m setMarkerDir (direction this);";
+		};
+		class Item13
+		{
+			position[]={3585.0852,45.652817,4002.8132};
+			azimut=14.3749;
+			id=17;
+			side="EMPTY";
+			vehicle="MAP_dum_istan3_pumpa";
+			skill=0.60000002;
+			init="this setdir (direction this);m=createmarker [format[""m%1"",this], [(position this select 0),(position this select 1)]];m setMarkerShape ""RECTANGLE"";m setMarkerColor ""ColorWhite"";m setMarkerSize [((boundingBox this select 1) select 0),((boundingBox this select 1) select 1)];m setMarkerDir (direction this);";
+		};
+		class Item14
+		{
+			position[]={3560.4548,47.947403,4011.7415};
+			azimut=14.3749;
+			id=18;
+			side="EMPTY";
+			vehicle="MAP_dum_istan3_pumpa";
+			skill=0.60000002;
+			init="this setdir (direction this);m=createmarker [format[""m%1"",this], [(position this select 0),(position this select 1)]];m setMarkerShape ""RECTANGLE"";m setMarkerColor ""ColorWhite"";m setMarkerSize [((boundingBox this select 1) select 0),((boundingBox this select 1) select 1)];m setMarkerDir (direction this);";
+		};
+		class Item15
+		{
+			position[]={3536.989,43.89159,4021.6909};
+			azimut=15.158;
+			id=19;
+			side="EMPTY";
+			vehicle="MAP_dum_istan3_pumpa";
+			skill=0.60000002;
+			init="this setdir (direction this);m=createmarker [format[""m%1"",this], [(position this select 0),(position this select 1)]];m setMarkerShape ""RECTANGLE"";m setMarkerColor ""ColorWhite"";m setMarkerSize [((boundingBox this select 1) select 0),((boundingBox this select 1) select 1)];m setMarkerDir (direction this);";
+		};
+		class Item16
+		{
+			position[]={3556.5769,43.82093,4043.9412};
+			azimut=104.127;
+			id=20;
+			side="EMPTY";
+			vehicle="MAP_dum_istan3_pumpa";
+			skill=0.60000002;
+			init="this setdir (direction this);m=createmarker [format[""m%1"",this], [(position this select 0),(position this select 1)]];m setMarkerShape ""RECTANGLE"";m setMarkerColor ""ColorWhite"";m setMarkerSize [((boundingBox this select 1) select 0),((boundingBox this select 1) select 1)];m setMarkerDir (direction this);";
+		};
+		class Item17
+		{
+			position[]={3659.2708,46.913601,4018.9985};
+			azimut=193.591;
+			id=21;
+			side="EMPTY";
+			vehicle="MAP_dum_istan3_pumpa";
+			skill=0.60000002;
+			init="this setdir (direction this);m=createmarker [format[""m%1"",this], [(position this select 0),(position this select 1)]];m setMarkerShape ""RECTANGLE"";m setMarkerColor ""ColorWhite"";m setMarkerSize [((boundingBox this select 1) select 0),((boundingBox this select 1) select 1)];m setMarkerDir (direction this);";
+		};
+		class Item18
+		{
+			position[]={3060.2668,31.833508,4446.3818};
+			azimut=84.463097;
+			id=24;
+			side="EMPTY";
+			vehicle="M2StaticMG";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item19
+		{
+			position[]={2911.637,4.2269692,4304.3809};
+			azimut=84.463097;
+			id=25;
+			side="EMPTY";
+			vehicle="M2StaticMG";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item20
+		{
+			position[]={3008.4905,15.427342,4287.6787};
+			azimut=84.463097;
+			id=26;
+			side="EMPTY";
+			vehicle="M2StaticMG";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item21
+		{
+			position[]={3173.5713,7.499907,4542.502};
+			azimut=84.463097;
+			id=27;
+			side="EMPTY";
+			vehicle="M2StaticMG";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item22
+		{
+			position[]={2838.1624,23.502689,4560.6357};
+			azimut=84.463097;
+			id=28;
+			side="EMPTY";
+			vehicle="M2StaticMG";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item23
+		{
+			position[]={3108.6846,30.608065,4364.5078};
+			azimut=84.463097;
+			id=29;
+			side="EMPTY";
+			vehicle="M2StaticMG";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item24
+		{
+			position[]={4207.1011,18.928982,3611.9006};
+			azimut=-76.042824;
+			id=30;
+			side="EMPTY";
+			vehicle="LAV25";
+			leader=1;
+			skill=0.60000002;
+		};
+	};
+	class Sensors
+	{
+		items=3;
+		class Item0
+		{
+			position[]={4007.2913,19,3637.7905};
+			a=200;
+			b=300;
+			angle=-36.379089;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			age="UNKNOWN";
+			name="z1";
+			expCond="time > 1";
+			expActiv="fun=[""z1"",[1,0,0],[6,3,30,8],[],[],[],[1,1,1,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={2950.9568,36.809097,4462.0186};
+			a=200;
+			b=300;
+			angle=39.417198;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			age="UNKNOWN";
+			name="z2";
+			expCond="time > 1";
+			expActiv="fun=[""z2"",[2,0,0],[5,2,30,8],[],[],[],[1,1,1,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={3590.991,43.205845,4015.21};
+			a=200;
+			b=100;
+			angle=13.991516;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			age="UNKNOWN";
+			name="z3";
+			expCond="time > 1";
+			expActiv="fun=[""z3"",[3,0,0],[6,3,20,8],[],[],[],[1,1,1,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=10024908;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=9894122;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=15239219;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
