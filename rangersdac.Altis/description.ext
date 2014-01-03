@@ -1,0 +1,21 @@
+respawn = 4;
+saving = 0;
+disabledAI = true;
+
+author="Pretzel and Pejter";
+OnLoadName = "Rangers lead the way";
+OnLoadMission = "Briefing is about to start...";
+loadScreen = "pic.paa";
+
+class Header{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 45;
+};
+
+#include "taw_vd\dialog.hpp"
+
+class CfgFunctions
+{
+	#include "taw_vd\CfgFunctions.hpp"
+};
