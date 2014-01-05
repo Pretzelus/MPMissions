@@ -874,6 +874,7 @@ class Mission
 			vehicle="O_Truck_02_Ammo_F";
 			lock="LOCKED";
 			skill=0.40000001;
+			text="truck1";
 		};
 		class Item11
 		{
@@ -885,6 +886,7 @@ class Mission
 			vehicle="O_Truck_02_Ammo_F";
 			lock="LOCKED";
 			skill=0.40000001;
+			text="truck2";
 		};
 		class Item12
 		{
@@ -896,6 +898,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKED";
 			skill=0.40000001;
+			text="truck3";
 		};
 		class Item13
 		{
@@ -907,6 +910,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKED";
 			skill=0.40000001;
+			text="truck4";
 		};
 		class Item14
 		{
@@ -918,6 +922,7 @@ class Mission
 			vehicle="Land_Antenna";
 			lock="LOCKED";
 			skill=0.40000001;
+			text="antenna";
 		};
 		class Item15
 		{
@@ -1034,7 +1039,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=6;
+		items=11;
 		class Item0
 		{
 			position[]={18196.857,29.040337,15340.834};
@@ -1128,6 +1133,89 @@ class Mission
 			age="UNKNOWN";
 			name="z6";
 			expActiv="fun = [""z6"",[1,0,0],[],[8,1,80,10],[],[],[0,0,0,0]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+		class Item6
+		{
+			position[]={25647.213,20.606319,21339.867};
+			a=300;
+			b=300;
+			angle=47.667;
+			rectangular=1;
+			activationBy="EAST";
+			activationType="NOT PRESENT";
+			timeoutMin=10;
+			timeoutMid=20;
+			timeoutMax=30;
+			interruptable=1;
+			age="UNKNOWN";
+			name="secure_sofia_tr";
+			expCond="true";
+			expActiv="[""secure_sofia"", ""SUCCEEDED""] call BIS_fnc_taskSetState;";
+			class Effects
+			{
+			};
+		};
+		class Item7
+		{
+			position[]={18237.189,47.431637,15538.654};
+			a=0;
+			b=0;
+			timeoutMin=1;
+			timeoutMid=5;
+			timeoutMax=10;
+			age="UNKNOWN";
+			name="destroy_trucks_tr";
+			expCond="!(alive truck1) && !(alive truck2) && !(alive truck3) && !(alive truck4)";
+			expActiv="[""destroy_trucks"", ""SUCCEEDED""] call BIS_fnc_taskSetState;";
+			class Effects
+			{
+			};
+		};
+		class Item8
+		{
+			position[]={19404.389,38.654957,13259.877};
+			a=200;
+			b=150;
+			rectangular=1;
+			activationBy="EAST";
+			activationType="NOT PRESENT";
+			timeoutMin=10;
+			timeoutMid=20;
+			timeoutMax=30;
+			interruptable=1;
+			age="UNKNOWN";
+			name="secure_dorida_tr";
+			expActiv="[""secure_dorida"", ""SUCCEEDED""] call BIS_fnc_taskSetState;";
+			class Effects
+			{
+			};
+		};
+		class Item9
+		{
+			position[]={20082.314,74.130692,11546.771};
+			a=0;
+			b=0;
+			interruptable=1;
+			age="UNKNOWN";
+			name="destroy_antenna_tr";
+			expCond="!(alive antenna)";
+			expActiv="[""destroy_antenna"", ""SUCCEEDED""] call BIS_fnc_taskSetState;";
+			class Effects
+			{
+			};
+		};
+		class Item10
+		{
+			position[]={11426.251,24.717051,11716.643};
+			a=0;
+			b=0;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="(triggerActivated secure_sofia_tr) && (triggerActivated secure_dorida_tr) && (triggerActivated destroy_trucks_tr) && (triggerActivated destroy_antenna_tr)";
+			expActiv="[""End1"", true, 7] call BIS_fnc_endMission;";
 			class Effects
 			{
 			};
