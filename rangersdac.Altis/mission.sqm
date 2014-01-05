@@ -1039,7 +1039,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=11;
+		items=12;
 		class Item0
 		{
 			position[]={18196.857,29.040337,15340.834};
@@ -1152,7 +1152,6 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="secure_sofia_tr";
-			expCond="true";
 			expActiv="[""secure_sofia"", ""SUCCEEDED""] call BIS_fnc_taskSetState;";
 			class Effects
 			{
@@ -1176,25 +1175,6 @@ class Mission
 		};
 		class Item8
 		{
-			position[]={19404.389,38.654957,13259.877};
-			a=200;
-			b=150;
-			rectangular=1;
-			activationBy="EAST";
-			activationType="NOT PRESENT";
-			timeoutMin=10;
-			timeoutMid=20;
-			timeoutMax=30;
-			interruptable=1;
-			age="UNKNOWN";
-			name="secure_dorida_tr";
-			expActiv="[""secure_dorida"", ""SUCCEEDED""] call BIS_fnc_taskSetState;";
-			class Effects
-			{
-			};
-		};
-		class Item9
-		{
 			position[]={20082.314,74.130692,11546.771};
 			a=0;
 			b=0;
@@ -1207,15 +1187,51 @@ class Mission
 			{
 			};
 		};
-		class Item10
+		class Item9
 		{
 			position[]={11426.251,24.717051,11716.643};
 			a=0;
 			b=0;
+			timeoutMin=10;
+			timeoutMid=30;
+			timeoutMax=60;
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="(triggerActivated secure_sofia_tr) && (triggerActivated secure_dorida_tr) && (triggerActivated destroy_trucks_tr) && (triggerActivated destroy_antenna_tr)";
-			expActiv="[""End1"", true, 7] call BIS_fnc_endMission;";
+			expActiv="""End1"" call BIS_fnc_endMission;";
+			class Effects
+			{
+			};
+		};
+		class Item10
+		{
+			position[]={11097.811,24.737572,12372.773};
+			a=0;
+			b=0;
+			activationBy="ALPHA";
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="""End1"" call BIS_fnc_endMission;";
+			class Effects
+			{
+			};
+		};
+		class Item11
+		{
+			position[]={19394.291,38.841034,13242.729};
+			a=300;
+			b=300;
+			angle=47.667;
+			rectangular=1;
+			activationBy="EAST";
+			activationType="NOT PRESENT";
+			timeoutMin=10;
+			timeoutMid=20;
+			timeoutMax=30;
+			interruptable=1;
+			age="UNKNOWN";
+			name="secure_dorida_tr";
+			expActiv="[""secure_dorida"", ""SUCCEEDED""] call BIS_fnc_taskSetState;";
 			class Effects
 			{
 			};

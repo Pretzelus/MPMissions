@@ -1,6 +1,6 @@
 [
 player,
-"decure_sofia",
+"secure_sofia",
 [
 "Secure the town of Sofia",
 "Secure Sofia",
@@ -9,6 +9,7 @@ player,
 false,
 false
 ] call BIS_fnc_taskCreate;
+
 
 [
 player,
@@ -22,6 +23,7 @@ false,
 false
 ] call BIS_fnc_taskCreate;
 
+
 [
 player,
 "secure_dorida",
@@ -33,6 +35,7 @@ player,
 false,
 false
 ] call BIS_fnc_taskCreate;
+
 
 [
 player,

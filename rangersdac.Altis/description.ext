@@ -19,3 +19,13 @@ class CfgFunctions
 {
 	#include "taw_vd\CfgFunctions.hpp"
 };
+
+class CfgDebriefing
+{  
+	class End1
+	{
+		title = "Mission Completed";
+		subtitle = "";
+		description = "You've completed all objectives";
+	};
+};
